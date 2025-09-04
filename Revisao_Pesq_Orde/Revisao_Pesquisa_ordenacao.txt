@@ -1,0 +1,27 @@
+1) Ordenação é o processo de organizar os elementos de uma coleção em uma ordem específica. É importante para facilitar a busca, a recuperação e outras operações em estruturas de dados
+
+2)A estabilidade de um algoritmo de ordenação refere-se à sua capacidade de manter a ordem relativa de elementos com chaves iguais. A complexidade de um algoritmo mede o número de operações ou o tempo necessário para organizar uma lista de dados em relação ao tamanho da entrada
+Bolha - Método estável
+Seleção - Método instável
+Inserção- Método estável
+Agitação - Método estável
+Pente - Método instável 
+Shellsort - Método instável 
+Quicksort - Método instável
+Mergesort - Método instável
+Heapsort - Mpétodo instável
+
+3)A complexidade de um algoritmo de ordenação é medida em tempo de execução e uso de memoria.
+Bolha - Alta complexidade - (O(n²)) → algoritmos simples, verificam muitos pares de elementos → crescem muito rápido.
+Seleção - Alta complexidade -(O(n²)) → algoritmos simples, verificam muitos pares de elementos → crescem muito rápido.
+Inserção - Alta complexidade -(O(n²)) → algoritmos simples, verificam muitos pares de elementos → crescem muito rápido.
+Agitação - Alta complexidade -(O(n²)) → algoritmos simples, verificam muitos pares de elementos → crescem muito rápido.
+Pente - Alta complexidade - (O(n²)) → algoritmos simples, verificam muitos pares de elementos → crescem muito rápido.
+Shellsort - Alta complexidade - (O(n²)) → algoritmos simples, verificam muitos pares de elementos → crescem muito rápido.
+Quicksort - Baixa complexidade - (O(n log n)) → algoritmos inteligentes, dividem o problema em partes menores → crescem muito mais devagar.
+Mergesort - Baixa complexidade - (O(n log n)) → algoritmos inteligentes, dividem o problema em partes menores → crescem muito mais devagar. 
+Heapsort - Baixa complexidade (O(n log n)) → algoritmos inteligentes, dividem o problema em partes menores → crescem muito mais devagar. 
+
+4) Depende do critério que você quer adotar (tempo, espaço, estabilidade, tamanho do vetor).
+
+
