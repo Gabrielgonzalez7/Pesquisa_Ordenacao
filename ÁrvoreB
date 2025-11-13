@@ -1,0 +1,25 @@
+                                                            ****Árvore B****
+
+Uma Árvore B (B-tree) é uma estrutura de dados hierárquica e balanceada usada principalmente para armazenar e buscar dados em memória secundária, como discos rígidos ou SSDs.
+Ela é muito eficiente porque minimiza o número de acessos ao disco, mantendo os dados organizados em blocos chamados páginas.
+
+Características Principais:
+Multivias: Um nó pode ter mais de dois filhos.
+Balanceamento: A árvore é sempre balanceada, o que significa que todas as folhas estão no mesmo nível. Isso garante que o tempo de busca seja sempre eficiente, com complexidade de tempo de E/S (Entrada/Saída) em $O(\log_M n)$, onde $n$ é o número de chaves.
+Otimização para Disco: O principal objetivo é minimizar o número de acessos ao disco (operações E/S), pois a leitura e escrita em disco é muito mais lenta do que na memória principal. Cada nó (frequentemente chamado de página) é projetado para corresponder ao tamanho de um bloco de disco.
+
+
+
+
+*** Inserção e Remoção
+As operações de inserção e remoção em Árvores B envolvem mecanismos para garantir que a propriedade de balanceamento seja mantida, através de processos de:
+
+Split (Cisão): Se um nó fica muito cheio após uma inserção, ele é dividido em dois, e a chave mediana é promovida para o nó pai.
+
+Fusão/Redistribuição: Durante a remoção, se um nó fica com poucas chaves, ele pode ser fundido com um irmão ou chaves podem ser redistribuídas entre eles para garantir uma ocupação mínima
+
+Aplicação:
+* Pesquisa feita em memória secundária
+*Árvore equilibrada e não profunda
+*Agilidade no acesso a dados ou chaves
+*Coleção de páginas
